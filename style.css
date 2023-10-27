@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+a{
+  font-family: 'Anton', sans-serif;
+  color: rgba(46, 45, 45, 0.8);
+}
+
+
+p{
+    opacity: 0.4;
+}
+
+h1,h2,h3,h4,h5,span{
+    font-family: 'Roboto', sans-serif;
+    color: rgba(46, 45, 45, 0.8);
+}
+
+.section1{
+    height: 100vh;
+     
+      max-height: 950px;
+      background-image: url("pexels-robert-forever-ago-18020046.jpg");
+    background-size: cover;
+    background-position: center center;
+    position: relative; 
+    background-repeat: no-repeat;
+  }
+  
+  .section1::before{
+      content:"";
+      width: 100%;
+      height: 100%;
+      background: linear-gradient( -100deg , rgba(46, 45, 45, 0.8) 50%, rgb(0,0,0,0) 50%);
+      position: absolute;
+      top: 0;
+      left: 0;
+      
+  }
+
+
+
+  .section3{
+    background: linear-gradient( -100deg , rgba(46, 45, 45, 0.8) 50%, rgb(0,0,0,0) 50%);
+  }
+
+  .section2{
+    background: linear-gradient( -100deg , rgba(46, 45, 45, 0.8) 50%, rgb(0,0,0,0) 50%);
+  }
+
+  .sd2{
+ margin: auto;
+    width: 300px;
+      background-image: url("pexels-liam-gant-1414467.jpg");
+  height: 300px;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  }
+
+  .sd2::before{
+    content:"";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-100deg, rgba(46, 45, 45, 0.8),50%, rgb(0,0,0,0) 50%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radiu: 115px;
+
+
+  }
+
+  .fotter{
+   
+   
+      background-image: url("pexels-alexandre-perotto-165556.jpg");
+  height: 300px;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+
+
+  }
+  .fotter::before{
+
+    content:"";
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+
+  }
+  i{
+    color: rgba(46, 45, 45, 0.8);
+    font-size: 30px;
+    margin: 0px 20px;
+  }
